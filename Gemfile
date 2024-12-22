@@ -12,6 +12,7 @@ gem "stimulus-rails",  "1.0.4"
 gem "jbuilder",        "2.11.5"
 gem "puma",            "5.6.4"
 gem "bootsnap",        "1.12.0", require: false
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   gem 'pg', '>= 1.3.5'
