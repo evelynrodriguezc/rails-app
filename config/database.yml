@@ -8,11 +8,11 @@ default: &default
 
 development:
   <<: *default
-  database: hello_app_development
+  database: rails_appf1kj
 
 test:
   <<: *default
-  database: hello_app_test
+  database: rails_appf1kj
 
 production:
   <<: *default
